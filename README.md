@@ -3,7 +3,18 @@
 Web estática (HTML + CSS, sin dependencias) que explica el servidor y cómo instalar la instancia.
 Se genera con `python tools/gen_sitio.py` desde la carpeta del proyecto; no la edites a mano.
 
-## Publicarla en GitHub Pages
+## Publicada (2026-10-24)
+
+- Repositorio: https://github.com/Chamorro2/minekoi (público). Esta carpeta `sitio/` es su copia local (`git remote origin`).
+- Web: **https://chamorro2.github.io/minekoi/** (GitHub Pages, rama `main`, carpeta raíz).
+
+Para actualizarla: regenera con `python tools/gen_sitio.py` (no borra `.git`), y desde `sitio/`:
+
+    git add -A
+    git commit -m "Actualiza la web"
+    git push
+
+## Publicarla en GitHub Pages (cómo se hizo)
 
 1. En GitHub, crea un repositorio nuevo **público**, por ejemplo `minekoi`.
 2. Sube **el contenido de esta carpeta `sitio/`** a la raíz del repositorio (`index.html` tiene que quedar arriba del todo).
