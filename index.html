@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MineKOI — servidor de Minecraft homenaje a Movistar KOI</title>
+<meta name="description" content="Servidor privado de Minecraft con un museo de los títulos de Movistar Riders, MAD Lions y KOI, y un cine para ver el Mundial de League of Legends.">
+<link rel="icon" href="favicon.png">
+<meta property="og:title" content="MineKOI">
+<meta property="og:description" content="Museo de Movistar Riders, MAD Lions y KOI dentro de Minecraft, con cine para ver los partidos.">
+<meta property="og:image" content="img/compartir.jpg">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#inicio"><img src="img/icono.png" alt="" width="32" height="32"><b>Mine<span>KOI</span></b></a>
+  <nav>
+    <a href="#servidor">El servidor</a>
+    <a href="#museo">Museo</a>
+    <a href="#instalar">Cómo entrar</a>
+    <a href="#ayuda">Ayuda</a>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Servidor de Minecraft · Java 1.21.1</p>
+    <h1>Mine<span>KOI</span></h1>
+    <p class="lead">Un museo flotante con la historia de <strong class="riders">Movistar Riders</strong>, <strong class="mad">MAD Lions</strong> y <strong class="koi">KOI</strong>, y un cine gigante para ver juntos los partidos del Mundial.</p>
+    <div class="cta">
+      <a class="btn primary" href="descargas/minekoi-1.6.0.mrpack" download>Descargar modpack</a>
+      <a class="btn" href="#instalar">Cómo entrar</a>
+    </div>
+    <p class="ip">Dirección: <code id="ip">72.62.29.18</code> <button class="copy" data-copy="72.62.29.18" type="button">Copiar</button></p>
+  </div>
+</section>
+
+<section id="servidor" class="section">
+  <h2>Qué es MineKOI</h2>
+  <div class="features">
+    <div class="feature">
+      <h3>Una isla en el cielo</h3>
+      <p>El edificio está sobre una isla flotante, dentro de una cúpula de cristal. Todo está iluminado y el cielo es en HD, sin shaders.</p>
+    </div>
+    <div class="feature">
+      <h3>El museo</h3>
+      <p>Tres alas, una por club, con las copas de cada título y un cuadro con la plantilla campeona: 5 Superligas y 4 LEC.</p>
+    </div>
+    <div class="feature">
+      <h3>El cine</h3>
+      <p>Una pantalla de 32×18 bloques con nueve filas de butacas. Te sientas, y el partido se ve y se oye en directo dentro del juego.</p>
+    </div>
+    <div class="feature">
+      <h3>Para mirar, no para romper</h3>
+      <p>Entras en modo aventura: paseas, te sientas y ves la pantalla. El edificio, las copas y la pantalla están protegidos.</p>
+    </div>
+  </div>
+</section>
+
+<section id="museo" class="section">
+  <h2>Los títulos del museo</h2>
+  <p class="section-lead">Solo campeonatos de Superliga y LEC. Datos de <a href="https://lol.fandom.com/" rel="noopener">Leaguepedia</a>.</p>
+  <div class="titles">
+      <article class="title-card club-riders">
+        <img src="img/cuadros/r1.png" alt="Cuadro del título Superliga Orange 2020 Verano" loading="lazy" width="384" height="288">
+        <div class="title-body">
+          <p class="club">Movistar Riders</p>
+          <h3>Superliga Orange 2020 Verano</h3>
+          <p class="meta">4 de septiembre de 2020 · Final 3-0 vs G2 Arctic</p>
+          <ul class="roster"><li><span>Top</span>beansu</li><li><span>Jungla</span>Elyoya</li><li><span>Mid</span>Xico</li><li><span>ADC</span>JaVaaa</li><li><span>Support</span>rhuckz</li><li><span>Coach</span>Jarge</li></ul>
+        </div>
+      </article>
+      <article class="title-card club-riders">
+        <img src="img/cuadros/r2.png" alt="Cuadro del título Superliga 2023 Primavera" loading="lazy" width="384" height="288">
+        <div class="title-body">
+          <p class="club">Movistar Riders</p>
+          <h3>Superliga 2023 Primavera</h3>
+          <p class="meta">1 de abril de 2023 · Final 3-0 vs Team Heretics</p>
+          <ul class="roster"><li><span>Top</span>Marky</li><li><span>Jungla</span>Isma</li><li><span>Mid</span>Fresskowy</li><li><span>ADC</span>Supa</li><li><span>Support</span>Alvaro</li><li><span>Coach</span>Melzhet</li></ul>
+        </div>
+      </article>
+      <article class="title-card club-riders">
+        <img src="img/cuadros/r3.png" alt="Cuadro del título Superliga 2023 Verano" loading="lazy" width="384" height="288">
+        <div class="title-body">
+          <p class="club">Movistar Riders</p>
+          <h3>Superliga 2023 Verano</h3>
+          <p class="meta">12 de agosto de 2023 · Final 3-1 vs BISONS</p>
+          <ul class="roster"><li><span>Top</span>Marky</li><li><span>Jungla</span>Isma</li><li><span>Mid</span>Fresskowy</li><li><span>ADC</span>Supa</li><li><span>Support</span>Alvaro</li><li><span>Coach</span>Melzhet</li></ul>
+        </div>
+      </article>
+      <article class="title-card club-mad">
+        <img src="img/cuadros/m1.png" alt="Cuadro del título Superliga Orange 2018 Primavera" loading="lazy" width="384" height="288">
+        <div class="title-body">
+          <p class="club">MAD Lions</p>
+          <h3>Superliga Orange 2018 Primavera</h3>
+          <p class="meta">25 de marzo de 2018 · Final 3-0 vs Movistar Riders</p>
+          <ul class="roster"><li><span>Top</span>Werlyb</li><li><span>Jungla</span>Selfmade</li><li><span>Mid</span>Nemesis</li><li><span>ADC</span>Crownshot</li><li><span>Support</span>Falco</li><li><span>Coach</span>Araneae</li></ul>
+        </div>
+      </article>
+      <article class="title-card club-mad">
+        <img src="img/cuadros/m2.png" alt="Cuadro del título Superliga Orange 2018 Verano" loading="lazy" width="384" height="288">
+        <div class="title-body">
+          <p class="club">MAD Lions</p>
+          <h3>Superliga Orange 2018 Verano</h3>
+          <p class="meta">2 de septiembre de 2018 · Final 3-1 vs Vodafone Giants</p>
+          <ul class="roster"><li><span>Top</span>Werlyb</li><li><span>Jungla</span>Selfmade</li><li><span>Mid</span>Nemesis</li><li><span>ADC</span>Crownshot</li><li><span>Support</span>Falco</li><li><span>Coach</span>Araneae</li></ul>
+        </div>
+      </article>
+      <article class="title-card club-mad">
+        <img src="img/cuadros/m3.png" alt="Cuadro del título LEC 2021 Primavera" loading="lazy" width="384" height="288">
+        <div class="title-body">
+          <p class="club">MAD Lions</p>
+          <h3>LEC 2021 Primavera</h3>
+          <p class="meta">11 de abril de 2021 · Final 3-2 vs Rogue</p>
+          <ul class="roster"><li><span>Top</span>Armut</li><li><span>Jungla</span>Elyoya</li><li><span>Mid</span>Humanoid</li><li><span>ADC</span>Carzzy</li><li><span>Support</span>Kaiser</li><li><span>Coach</span>Mac</li></ul>
+        </div>
+      </article>
+      <article class="title-card club-mad">
+        <img src="img/cuadros/m4.png" alt="Cuadro del título LEC 2021 Verano" loading="lazy" width="384" height="288">
+        <div class="title-body">
+          <p class="club">MAD Lions</p>
+          <h3>LEC 2021 Verano</h3>
+          <p class="meta">29 de agosto de 2021 · Final 3-1 vs Fnatic</p>
+          <ul class="roster"><li><span>Top</span>Armut</li><li><span>Jungla</span>Elyoya</li><li><span>Mid</span>Humanoid</li><li><span>ADC</span>Carzzy</li><li><span>Support</span>Kaiser</li><li><span>Coach</span>Mac</li></ul>
+        </div>
+      </article>
+      <article class="title-card club-mad">
+        <img src="img/cuadros/m5.png" alt="Cuadro del título LEC 2023 Primavera" loading="lazy" width="384" height="288">
+        <div class="title-body">
+          <p class="club">MAD Lions</p>
+          <h3>LEC 2023 Primavera</h3>
+          <p class="meta">23 de abril de 2023 · Final 3-2 vs Team BDS</p>
+          <ul class="roster"><li><span>Top</span>Chasy</li><li><span>Jungla</span>Elyoya</li><li><span>Mid</span>Nisqy</li><li><span>ADC</span>Carzzy</li><li><span>Support</span>Hylissang</li><li><span>Coach</span>Mac</li></ul>
+        </div>
+      </article>
+      <article class="title-card club-koi">
+        <img src="img/cuadros/k1.png" alt="Cuadro del título LEC 2025 Primavera" loading="lazy" width="384" height="288">
+        <div class="title-body">
+          <p class="club">Movistar KOI</p>
+          <h3>LEC 2025 Primavera</h3>
+          <p class="meta">8 de junio de 2025 · Final 3-1 vs G2 Esports</p>
+          <ul class="roster"><li><span>Top</span>Myrwn</li><li><span>Jungla</span>Elyoya</li><li><span>Mid</span>Jojopyun</li><li><span>ADC</span>Supa</li><li><span>Support</span>Alvaro</li><li><span>Coach</span>Melzhet</li></ul>
+        </div>
+      </article>
+  </div>
+</section>
+
+<section id="instalar" class="section">
+  <h2>Cómo entrar</h2>
+  <p class="section-lead">Necesitas <strong>Minecraft Java Edition original</strong> (cuenta premium) y <a href="https://prismlauncher.org/" rel="noopener">Prism Launcher</a>, que es gratuito. Se tarda unos minutos.</p>
+  <ol class="steps">
+    <li>
+      <h3>Instala Prism Launcher</h3>
+      <p>Descárgalo de <a href="https://prismlauncher.org/download/" rel="noopener">prismlauncher.org</a>, ábrelo e inicia sesión con tu cuenta de Microsoft.</p>
+    </li>
+    <li>
+      <h3>Descarga el modpack</h3>
+      <p><a href="descargas/minekoi-1.6.0.mrpack" download><strong>minekoi-1.6.0.mrpack</strong></a>. No hace falta abrirlo ni descomprimirlo.</p>
+    </li>
+    <li>
+      <h3>Impórtalo en Prism</h3>
+      <p>Pulsa <strong>Añadir instancia → Importar</strong>, elige el archivo <code>.mrpack</code> y acepta. Prism instala Minecraft 1.21.1, NeoForge y todos los mods. Si no tienes Java 21, también lo descarga.</p>
+    </li>
+    <li>
+      <h3>Dale memoria</h3>
+      <p>Opcional, pero recomendado: <strong>Editar → Ajustes → Memoria</strong> y pon <strong>4096 MB</strong> como máximo.</p>
+    </li>
+    <li>
+      <h3>Arranca y entra</h3>
+      <p>Inicia la instancia. Verás el menú de MineKOI: pulsa <strong>Entrar al servidor</strong>. La primera vez el juego descarga un navegador para la pantalla del cine (unos cientos de MB), así que tarda un poco más.</p>
+    </li>
+  </ol>
+  <p class="tip">¿Quieres el icono en Prism? <strong>Editar instancia → icono → Añadir</strong> y elige <a href="descargas/minekoi_icon.png" download>minekoi_icon.png</a>.</p>
+</section>
+
+<section id="ayuda" class="section">
+  <h2>Ayuda</h2>
+  <div class="faq">
+    <details>
+      <summary>Me sale «Datos del jugador no válidos» o no puedo entrar</summary>
+      <p>Comprueba que entras con la instancia importada desde el modpack, no con un Minecraft normal, y que tu cuenta es original. Si sigue fallando, avisa al administrador.</p>
+    </details>
+    <details>
+      <summary>La pantalla del cine se ve negra</summary>
+      <p>La primera vez tarda en cargar mientras se descarga el navegador. Si después sigue negra, prueba a quitar <strong>Sodium</strong> de la carpeta <code>mods</code> de la instancia: es solo para rendimiento y no hace falta para jugar.</p>
+    </details>
+    <details>
+      <summary>No veo el cielo nuevo</summary>
+      <p>En <strong>Opciones → Paquetes de recursos</strong>, activa <strong>Fresh Skybox</strong>.</p>
+    </details>
+    <details>
+      <summary>Salen textos raros como «gui.xaero…»</summary>
+      <p>Tienes un modpack antiguo. Descarga el último desde esta página e impórtalo de nuevo.</p>
+    </details>
+    <details>
+      <summary>¿Puedo romper o construir?</summary>
+      <p>No: los visitantes entran en modo aventura. Puedes pasear, sentarte en las butacas (clic derecho) y ver la pantalla.</p>
+    </details>
+  </div>
+</section>
+
+<section class="section credits">
+  <h2>Mods incluidos</h2>
+  <ul class="mods"><li><strong><a href="https://www.curseforge.com/minecraft/mc-mods/webdisplays-1-21-1-fork" rel="noopener">WebDisplays (fork 1.21.1)</a></strong> — La pantalla gigante del cine</li><li><strong><a href="https://modrinth.com/project/bQhBuv7x" rel="noopener">MCEF</a></strong> — Navegador Chromium para WebDisplays</li><li><strong><a href="https://modrinth.com/mod/bl4cks-sit" rel="noopener">Sit</a></strong> — Sentarse en las butacas</li><li><strong><a href="https://modrinth.com/mod/open-parties-and-claims" rel="noopener">Open Parties and Claims</a></strong> — Protección del edificio</li><li><strong><a href="https://modrinth.com/mod/sodium" rel="noopener">Sodium</a></strong> — Rendimiento</li><li><strong><a href="https://modrinth.com/mod/nuit" rel="noopener">Nuit + Nuit Interop</a></strong> — Cielo personalizado</li><li><strong><a href="https://modrinth.com/resourcepack/fresh-skybox" rel="noopener">Fresh Skybox</a></strong> — Pack de texturas del cielo en HD</li><li><strong>MineKOI</strong> — Copas, cuadros y menú (mod propio)</li></ul>
+</section>
+</main>
+
+<footer class="footer">
+  <p><strong>MineKOI</strong> es un proyecto de fans, sin ánimo de lucro, y <strong>no está afiliado</strong> a Movistar KOI, KOI, MAD Lions, Movistar Riders, Riot Games ni Mojang. Los nombres de los equipos y los jugadores pertenecen a sus dueños. No es un producto oficial de Minecraft.</p>
+</footer>
+
+<script>
+  document.querySelectorAll('.copy').forEach(b => b.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(b.dataset.copy); b.textContent = '¡Copiado!'; }
+    catch { b.textContent = 'Cópialo a mano'; }
+    setTimeout(() => b.textContent = 'Copiar', 1800);
+  }));
+</script>
+</body>
+</html>
